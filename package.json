@@ -1,16 +1,24 @@
 {
-  "name": "quizgame-ethanl66",
+  "name": "quizgame3-ethanl66",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "/dist/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel serve ./src/index.html",
     "build": "parcel build ./src/index.html"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanl66/quizgame3-ethanl66.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanl66/quizgame3-ethanl66/issues"
+  },
+  "homepage": "https://github.com/ethanl66/quizgame3-ethanl66#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0-beta.2",
     "parcel": "^2.0.0-beta.2"

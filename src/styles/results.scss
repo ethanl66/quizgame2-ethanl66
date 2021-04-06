@@ -1,0 +1,72 @@
+.rec-title {
+  font-size: 4.5rem;
+  margin: 0 0 4rem 0;
+  text-decoration: underline;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  //border: 3px solid white;
+}
+
+.title-name {
+  color: #7cbbf1;
+  font-weight: bold;
+  font-size: 3.8rem;
+  margin: 0 0 1.5rem 0;
+}
+.card-data {
+  display: flex;
+  flex-direction: row-reverse;
+  //border: 2px solid lightblue;
+}
+
+.anime-img-div {
+  //border: 2px solid lightsalmon;
+}
+
+.anime-data-div {
+  flex-direction: column;
+  //border: 2px solid green;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.anime-img {
+  width: 20rem;
+  height: auto;
+  object-fit: none;
+}
+
+.anime-data {
+  font-size: 1.7rem;
+  color: #c5e4ff;
+  margin-top: 1rem;
+}
+
+.synopsis {
+  margin-top: 0;
+}
+
+.mal-link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: red;
+}
+
+.mal-link:hover {
+  background-color: #56a5eb;
+  color: red;
+}
+
+/* @media screen and (max-height: 750px) {
+  .results-home {
+    height: 79vh;
+  }
+  .rec-title {
+    font-size: 5.9vh;
+    margin-top: 0.1rem;
+  }
+} ; */

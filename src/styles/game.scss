@@ -1,5 +1,18 @@
 @import "_variables.scss";
 
+#game {
+  background-color: rgba(53, 81, 92, 0.8);
+  border-radius: 1rem;
+  padding: 4rem 4rem 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#question {
+  margin-top: 0;
+  color: #459be6;
+}
+
 .choice-container {
   display: flex;
   margin-bottom: 0.5rem;
@@ -14,10 +27,46 @@
 }
 
 .choice-prefix {
+  width: 11px;
   padding: 1.5rem 2.5rem;
   background-color: #56a5eb;
   color: white;
 }
 .choice-text {
   padding: 1.5rem;
+<<<<<<< Updated upstream
+=======
+  width: 100%;
 }
+
+#nextButton {
+  outline: 0; //white box
+  border: 2px solid red;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 0.95rem;
+  font-size: 1.8rem;
+
+  //height: 5rem;
+  width: 12rem;
+  margin: 2rem 2rem 0 2rem;
+  padding: 1rem 2rem;
+  align-self: center;
+}
+
+#nextButton:hover {
+  background: red;
+  color: white;
+}
+
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+>>>>>>> Stashed changes
+}
+
+//ssss
